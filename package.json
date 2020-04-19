@@ -1,10 +1,8 @@
 {
   "version": "0.1.0",
   "license": "MIT",
-  "main": "dist/index.js",
-  "typings": "dist/index.d.ts",
+  "main": "src/index.js",
   "files": [
-    "dist",
     "src"
   ],
   "engines": {
@@ -12,11 +10,6 @@
   },
   "scripts": {},
   "peerDependencies": {},
-  "husky": {
-    "hooks": {
-      "pre-commit": "tsdx lint"
-    }
-  },
   "prettier": {
     "printWidth": 80,
     "semi": true,
@@ -25,9 +18,8 @@
   },
   "name": "apple-signin-verify-token",
   "author": "Ziyo Shams",
-  "module": "dist/apple-signin-verify-token.esm.js",
   "devDependencies": {
-    "husky": "^4.2.5"
+    "prettier": "^2.0.4"
   },
   "dependencies": {
     "jsonwebtoken": "^8.5.1",
