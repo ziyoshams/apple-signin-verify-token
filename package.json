@@ -10,13 +10,7 @@
   "engines": {
     "node": ">=10"
   },
-  "scripts": {
-    "start": "tsdx watch",
-    "build": "tsdx build",
-    "test": "tsdx test",
-    "lint": "tsdx lint",
-    "prepare": "tsdx build"
-  },
+  "scripts": {},
   "peerDependencies": {},
   "husky": {
     "hooks": {
@@ -33,9 +27,10 @@
   "author": "Ziyo Shams",
   "module": "dist/apple-signin-verify-token.esm.js",
   "devDependencies": {
-    "husky": "^4.2.5",
-    "tsdx": "^0.13.2",
-    "tslib": "^1.11.1",
-    "typescript": "^3.8.3"
+    "husky": "^4.2.5"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1",
+    "jwks-rsa": "^1.8.0"
   }
 }
